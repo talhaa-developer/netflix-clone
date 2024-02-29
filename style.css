@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;600&family=Roboto:wght@300;400&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+body {
+  background-color: #141414;
+}
+#text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50%;
+}
+#text h1 {
+  color: #fff;
+  font-size: 50px;
+  font-weight: 400;
+}
+#container {
+  width: 140px;
+  height: 140px;
+  /* border: 1px solid white; */
+  text-align: center;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.img-1:hover {
+  border: 3px solid #fff;
+}
+.img-1 {
+  width: 140px;
+  height: 140px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 3px;
+  overflow: hidden;
+}
+.box {
+  overflow: hidden;
+}
+#main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 28px;
+  margin: -100px 0px;
+}
+.box-text {
+  position: relative;
+  top: 7%;
+  font-size: 18px;
+  color: #737373;
+}
+.box-text:hover {
+  color: #fff;
+}
+button {
+  position: relative;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 10px 25px;
+  background: transparent;
+  border: 1px solid #737373;
+  color: #737373;
+}
+button:hover {
+  color: #fff;
+  border: 1px solid #fff;
+  cursor: pointer;
+}
